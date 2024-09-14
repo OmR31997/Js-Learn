@@ -43,21 +43,59 @@
 // console.log(typeof(score_7InNumber));
 // console.log(score_7InNumber);               //Got Nan when literal assign with undefined
 
-let isLogged=1;
-isNothing=""
-isSomething="Ramesh"
+// let isLogged=1;
+// isNothing=""
+// isSomething="Ramesh"
 
-let BooleanIsLogged = Boolean(isLogged);
-console.log(BooleanIsLogged)
+// let BooleanIsLogged = Boolean(isLogged);
+// console.log(BooleanIsLogged)
 
-let BooleanIsNothing = Boolean(isNothing);
-console.log(BooleanIsNothing)
+// let BooleanIsNothing = Boolean(isNothing);
+// console.log(BooleanIsNothing)
 
-let BooleanIsSomething = Boolean(isSomething);
-console.log(BooleanIsSomething)
+// let BooleanIsSomething = Boolean(isSomething);
+// console.log(BooleanIsSomething)
 
 // ****BooleanConversion
 // If literal 1 then got true
 // If literal 0 then got false
 // If literal "" then got false
 // If literal "Ramesh" got true
+
+// *********************OPEARATIONS***************
+
+// let value = 3;
+// let negValue = -value;
+// console.log(negValue);
+
+// let str1='Hello'
+// let str2=' Rahul'
+// console.log(str1+str2);
+
+// console.log(1+2);
+// console.log("1"+2);
+// console.log(1 + "2");
+// console.log("1"+"2");
+// console.log("1"+2+2);
+// console.log(1 + 2 + "3");
+// console.log((2+2)*5%3);
+
+// console.log(true)
+// console.log(+true);
+// console.log(+"");
+
+
+
+// console.log("2" > 1);
+// console.log("02" > 1);
+
+
+console.log(null > 0);
+console.log(null ==0);
+console.log(null >= 0);
+
+console.log(undefined > 0);
+console.log(undefined ==0);
+console.log(undefined < 0);
+
+
